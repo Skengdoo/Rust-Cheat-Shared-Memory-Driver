@@ -6,4 +6,6 @@ old communication  method i used for rust was not the best but still works and w
 
 ## usermode communication / from cheat
 
-go to file named usermode headers will be there put them in your cheat project and remove any esp stuff that was related to it due to it being for my old project
+https://github.com/Skengdoo/Rust-Cheat-Shared-Memory-Driver/tree/main/DriverCom
+
+put the headers in your cheat project and remove any esp stuff that was related to it due to it being for my old project
