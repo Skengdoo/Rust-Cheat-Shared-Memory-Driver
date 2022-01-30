@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.c" />
+    <ClCompile Include="Hooks\hk.c">
+      <Filter>Hooks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imports.h" />
+    <ClInclude Include="SharedMEM\helpers.h">
+      <Filter>Shared Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks\hk.h">
+      <Filter>Hooks</Filter>
+    </ClInclude>
+    <ClInclude Include="SharedMEM\ThreadContext.hpp">
+      <Filter>Shared Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Inf Include="SharedMem Driver.inf" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shared Memory">
+      <UniqueIdentifier>{a052d133-17d3-48d4-89b9-6b3eb711e0ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hooks">
+      <UniqueIdentifier>{d1936828-30d3-4db5-8f8c-4b47db274e0f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
